@@ -24,6 +24,8 @@ public class SelTest {
 
         // System.out.println("Page title is: " + driver.getTitle());
 
+        System.out.println(driver.getPageSource());
+
         if (driver.getPageSource().contains(res)) {
           System.out.println("SUCCESS");
         } else {
